@@ -15,8 +15,11 @@ class Cat
     @@cats << self
   end
 
+<<<<<<< HEAD
   def self.all
     @@cats
   end
 
+=======
+>>>>>>> d6eab4cf24db8d5846f2a897a6370e661b70ff65
 end
