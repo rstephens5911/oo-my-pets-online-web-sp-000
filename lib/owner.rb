@@ -70,8 +70,4 @@ class Owner
     "I have #{self.dogs.size} dog(s), and #{self.cats.size} cat(s)."
   end
 
-
-
-
-
 end
