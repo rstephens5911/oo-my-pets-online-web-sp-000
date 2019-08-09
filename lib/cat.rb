@@ -19,6 +19,4 @@ class Cat
     @@cats
   end
 
-  # Cat instance methods below
-
 end

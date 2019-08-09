@@ -19,6 +19,4 @@ class Dog
     @@dogs
   end
 
-  # Dog instance methods below
-
 end
