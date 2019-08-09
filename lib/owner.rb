@@ -48,8 +48,6 @@ class Owner
     new_dog = Dog.new(name, self)
     dogs
   end
-<<<<<<< HEAD
-=======
 
   def walk_dogs
     Dog.all.select { |dog| dog.mood = "happy" }
@@ -69,31 +67,11 @@ class Owner
   end
 
   def list_pets
-    "I have #{Dog.count} dog(s), and #{Cat.count}, cat(s)."
+    "I have #{self.dogsS.size} dog(s), and #{Cat.all.size}, cat(s)."
   end
 
 
->>>>>>> d6eab4cf24db8d5846f2a897a6370e661b70ff65
 
-  def walk_dogs
-    Dog.all.select { |dog| dog.mood = "happy" }
-  end
 
-  def feed_cats
-    Cat.all.select { |cat| cat.mood = "happy" }
-  end
-
-  def sell_pets
-    @@all.clear
-    Cat.all.select{ |cat| cat.mood = "nervous" }
-    Cat.all.select{ |cat| cat.owner = nil }
-
-    Dog.all.select{ |dog| dog.mood = "nervous" }
-    Dog.all.select{ |dog| dog.owner = nil }
-  end
-
-  def list_pets
-    "I have #{self.dogs.size} dog(s), and #{self.cats.size} cat(s)."
-  end
 
 end
